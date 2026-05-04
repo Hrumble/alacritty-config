@@ -1,0 +1,18 @@
+[general]
+live_config_reload = true
+
+[window]
+startup_mode = "Fullscreen"
+decorations = "None"
+
+[font]
+normal = {family = "JetBrainsMono Nerd Font", style = "Medium"}
+bold = {family = "JetBrainsMono Nerd Font", style = "Bold"}
+italic = {family = "JetBrainsMono Nerd Font", style = "Italic"}
+bold_italic = {family = "JetBrainsMono Nerd Font", style = "Bold Italic"}
+size = 12
+
+[keyboard]
+bindings = [
+	{key = "Enter", mods = "Shift | Control", action="CreateNewWindow"},
+]
